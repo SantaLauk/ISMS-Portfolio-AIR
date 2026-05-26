@@ -49,8 +49,9 @@ AIR-ISMS-Portfolio/
 | 8 | AIR-ISMS-POL-003 | [Incident Response Policy](04-Policies/) | Word | Annex A 5.24–5.28 |
 | 9 | AIR-ISMS-EXR-001 | [IR Tabletop Exercise — Operation Stale Key](05-Operations/) | Word | Annex A 5.24–5.28 |
 | 10 | AIR-ISMS-SOA-001 | [Statement of Applicability](06-Compliance/) | Excel | Clause 6.1.3 |
-| 11 | AIR-ISMS-AUD-001 | [Internal Audit Report + Findings Log](06-Compliance/) | Word + Excel | Clause 9.2 |
-| 12 | AIR-ISMS-RMP-001 | [Security Improvement Roadmap](07-Improvement/) | Excel | Clause 10.1, 10.2 |
+| 11 | AIR-ISMS-AUD-001 | [Internal Audit Report](06-Compliance/) | Word | Clause 9.2 |
+| 12 | AIR-ISMS-AUD-001 | [Findings Log](07-Improvement/) | Excel | Clause 9.2 |
+| 13 | AIR-ISMS-RMP-001 | [Security Improvement Roadmap](07-Improvement/) | Excel | Clause 10.1, 10.2 |
 
 ---
 
