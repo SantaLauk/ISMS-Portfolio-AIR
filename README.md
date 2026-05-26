@@ -58,7 +58,7 @@ AIR-ISMS-Portfolio/
 ## What Each Section Covers
 
 ### 01 — Context and Scope
-The foundation of the ISMS. The **Organisation Profile** documents AIR's internal and external context — governance structure, strategic objectives, regulatory obligations (GDPR, NIS2, EU AI Act), and the threat landscape specific to a critical infrastructure research organisation. The **Scope Statement** formally defines the ISMS boundary across all three locations, 145 personnel, and 12 systems, with justified exclusions and documented interface controls.
+The foundation of the ISMS. The **Organisation Profile** documents AIR's internal and external context: governance structure, strategic objectives, regulatory obligations (GDPR, NIS2, EU AI Act), and the threat landscape specific to a critical infrastructure research organisation. The **Scope Statement** formally defines the ISMS boundary across all three locations, 145 personnel, and 12 systems, with justified exclusions and documented interface controls.
 
 ### 02 — Asset Management
 The **Asset Inventory** catalogues 11 primary information assets (from government-classified research data to AI model weights) and 12 supporting technical assets. Each asset carries an owner, a classification level (Restricted through Public), a CIA impact rating, and links to the risks that apply to it.
@@ -76,7 +76,7 @@ Three topic-specific policies exist beneath the top-level Information Security P
 A fully scripted **tabletop exercise** (Operation Stale Key) simulating the exploitation of a stale contractor account to access 4.1 GB of Restricted research data. Six timed injects test the team's detection, classification, containment, legal notification, and media handling capability, with facilitator notes, expected responses, and a structured debrief framework.
 
 ### 06 — Compliance
-The **Statement of Applicability** assesses all 93 ISO/IEC 27001:2022 Annex A controls — none are excluded. 9 are fully implemented, 63 are partially implemented, and 21 are not yet implemented, each with an evidence reference and recommended action. The **Internal Audit Report** documents a simulated first audit: 2 major non-conformities, 5 minor non-conformities, 5 observations, and 8 conformities, with a full findings log tracking corrective actions and target dates.
+The **Statement of Applicability** assesses all 93 ISO/IEC 27001:2022 Annex A controls, none are excluded. 9 are fully implemented, 63 are partially implemented, and 21 are not yet implemented, each with an evidence reference and recommended action. The **Internal Audit Report** documents a simulated first audit: 2 major non-conformities, 5 minor non-conformities, 5 observations, and 8 conformities, with a full findings log tracking corrective actions and target dates.
 
 ### 07 — Improvement
 A **10-month Security Improvement Roadmap** across 9 workstreams, covering 48 prioritised initiatives. Includes a 15-gate pre-certification checklist mapping every condition AIR must satisfy before submitting for Stage 1 external audit.
