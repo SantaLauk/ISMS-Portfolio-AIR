@@ -7,11 +7,11 @@
 
 ## Overview
 
-This repository contains a complete, end-to-end Information Security Management System (ISMS) portfolio built to the requirements of **ISO/IEC 27001:2022**. It was developed to demonstrate practical knowledge of the standard — from organisational context and risk assessment through policy development, control evaluation, internal audit, and improvement planning.
+This repository contains a complete, end-to-end Information Security Management System (ISMS) portfolio built to the requirements of **ISO/IEC 27001:2022**. It was developed to demonstrate practical knowledge of the standard, from organisational context and risk assessment through policy development, control evaluation, internal audit, and improvement planning.
 
-The fictional organisation (AIR) is a 145-person critical infrastructure research firm operating across three EU locations (Madrid, Brussels, Berlin), holding government-classified research data, and developing proprietary AI models. This profile was chosen deliberately because it creates a complex, realistic information security environment — multiple jurisdictions, sensitive data classifications, contractor access risks, and a mix of cloud and on-premises infrastructure.
+The fictional organisation (AIR) is a 145-person critical infrastructure research firm operating across three EU locations (Madrid, Brussels, Riga), handling sensitive research and infrastructure-related data, and developing proprietary AI models. The scenario was chosen to reflect a complex, realistic information security environment (multiple jurisdictions, sensitive data classifications, contractor access risks, and a mix of cloud and on-premises infrastructure).
 
-**Certification target (simulated):** ISO/IEC 27001:2022 — Q1 2026
+**Certification target (simulated):** ISO/IEC 27001:2022 — Q1 2027
 **Standard clause coverage:** All mandatory clauses (4–10) and all 93 Annex A controls assessed
 
 ---
@@ -63,10 +63,10 @@ The foundation of the ISMS. The **Organisation Profile** documents AIR's interna
 The **Asset Inventory** catalogues 11 primary information assets (from government-classified research data to AI model weights) and 12 supporting technical assets. Each asset carries an owner, a classification level (Restricted through Public), a CIA impact rating, and links to the risks that apply to it.
 
 ### 03 — Risk Management
-The **Risk Assessment Methodology** defines a 5×5 likelihood-impact matrix, risk appetite thresholds, and the four treatment options available to asset owners. The **Risk Register** applies this methodology to 13 identified risks across identity and access, data protection, AI infrastructure, and legal compliance domains. All 13 risks were rated High at inherent level; post-treatment residual ratings range from Medium to Low.
+The **Risk Assessment Methodology** defines a 5×5 likelihood-impact matrix, risk appetite thresholds, and the four treatment options available to asset owners. The **Risk Register** applies this methodology to 13 identified risks across identity and access, data protection, AI infrastructure, and legal compliance domains.
 
 ### 04 — Policies
-Three topic-specific policies sit beneath the top-level Information Security Policy:
+Three topic-specific policies exist beneath the top-level Information Security Policy:
 - **Information Security Policy** — management mandate, five measurable security objectives, information classification scheme, and the policy hierarchy
 - **Access Control Policy** — full access lifecycle with defined timeframes, MFA requirements, Privileged Identity Management, and a contractor access framework
 - **Incident Response Policy** — P1–P4 severity classification, six-phase response lifecycle, GDPR 72-hour notification obligations, and evidence handling procedures
@@ -78,7 +78,7 @@ A fully scripted **tabletop exercise** (Operation Stale Key) simulating the expl
 The **Statement of Applicability** assesses all 93 ISO/IEC 27001:2022 Annex A controls — none are excluded. 9 are fully implemented, 63 are partially implemented, and 21 are not yet implemented, each with an evidence reference and recommended action. The **Internal Audit Report** documents a simulated first audit: 2 major non-conformities, 5 minor non-conformities, 5 observations, and 8 conformities, with a full findings log tracking corrective actions and target dates.
 
 ### 07 — Improvement
-A **10-month Security Improvement Roadmap** across 9 workstreams, covering 48 prioritised initiatives from immediate NCR remediation through to pre-certification readiness. Includes a 15-gate pre-certification checklist mapping every condition AIR must satisfy before submitting for Stage 1 external audit.
+A **10-month Security Improvement Roadmap** across 9 workstreams, covering 48 prioritised initiatives. Includes a 15-gate pre-certification checklist mapping every condition AIR must satisfy before submitting for Stage 1 external audit.
 
 ---
 
@@ -86,10 +86,10 @@ A **10-month Security Improvement Roadmap** across 9 workstreams, covering 48 pr
 
 | Phase | Period | Focus |
 |---|---|---|
-| **Treatment** | Jun – Sep 2025 | Close 2 major NCRs and 5 minor NCRs. Complete ROPA, DPIAs, supplier assessments, MFA migration, automated offboarding, staff training. |
-| **Pre-Certification** | Oct – Nov 2025 | Follow-up internal audit. Verify NCR closure. Complete all policies. Conduct management review. External penetration test. |
-| **Stage 1 Audit** | Dec 2025 | External certification body documentation review. Identify Stage 2 readiness gaps. |
-| **Stage 2 Audit** | Feb – Mar 2026 | On-site audit. ISO/IEC 27001:2022 certificate issued. |
+| **Treatment** | Jun – Sep 2026 | Close 2 major NCRs and 5 minor NCRs. Complete ROPA, DPIAs, supplier assessments, MFA migration, automated offboarding, staff training. |
+| **Pre-Certification** | Oct – Nov 2026 | Follow-up internal audit. Verify NCR closure. Complete all policies. Conduct management review. External penetration test. |
+| **Stage 1 Audit** | Dec 2026 | External certification body documentation review. Identify Stage 2 readiness gaps. |
+| **Stage 2 Audit** | Feb – Mar 2027 | On-site audit. ISO/IEC 27001:2022 certificate issued. |
 
 ---
 
@@ -108,7 +108,7 @@ A **10-month Security Improvement Roadmap** across 9 workstreams, covering 48 pr
 | Audit findings | 12 (2 major NCR, 5 minor NCR, 5 observations, 8 conformities) |
 | Roadmap initiatives | 48 across 9 workstreams |
 | Personnel in scope | 145 (120 employees, 25 contractors) |
-| Locations in scope | 3 (Madrid, Brussels, Berlin) |
+| Locations in scope | 3 (Madrid, Brussels, Riga) |
 
 ---
 
@@ -121,6 +121,6 @@ A **10-month Security Improvement Roadmap** across 9 workstreams, covering 48 pr
 ## Notes
 
 - All document IDs follow the convention `AIR-ISMS-[CATEGORY]-[NUMBER]`
-- All documents are at version 1.0, dated May 2025
+- All documents are at version 1.0, dated May 2026
 - Document classification levels used: Restricted, Confidential, Internal, Public
 - The organisation and all associated data are entirely fictional and created for portfolio demonstration purposes only
