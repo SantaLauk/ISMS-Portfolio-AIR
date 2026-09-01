@@ -1,36 +1,38 @@
 # AIR ISMS Portfolio
+
 ### ISO/IEC 27001:2022 — Information Security Management System
 
-> **Aetheria Infrastructure Research (AIR)** is a fictional European research organisation created for portfolio purposes. All documents, data, risks, and findings in this repository are simulated. The organisation, its systems, personnel, and government partnerships do not exist.
+> **Aetheria Infrastructure Research (AIR)** is a fictional European research organisation created for portfolio purposes. All organisations, systems, personnel, data, risks and findings described in this repository are simulated.
 
 ---
 
 ## Overview
 
-This repository contains a complete, end-to-end Information Security Management System (ISMS) portfolio built to the requirements of **ISO/IEC 27001:2022**. It was developed to demonstrate practical knowledge of the standard — from organisational context and risk assessment through policy development, control evaluation, internal audit, and improvement planning.
+This repository contains an ISO/IEC 27001:2022-aligned ISMS portfolio developed for a fictional research organisation.
 
-The fictional organisation (AIR) is a 145-person critical infrastructure research firm operating across three EU locations (Madrid, Brussels, Berlin), holding government-classified research data, and developing proprietary AI models. This profile was chosen deliberately because it creates a complex, realistic information security environment — multiple jurisdictions, sensitive data classifications, contractor access risks, and a mix of cloud and on-premises infrastructure.
+The project covers the main stages of an ISMS, including organisational context, asset management, risk assessment, security policies, incident response, internal audit and continual improvement.
 
-**Certification target (simulated):** ISO/IEC 27001:2022 — Q1 2026
-**Standard clause coverage:** All mandatory clauses (4–10) and all 93 Annex A controls assessed
+AIR is a 145-person research organisation with offices in Madrid, Brussels and Riga. It works on critical infrastructure research, AI-powered resilience modelling and government-commissioned research programmes. The organisation handles sensitive research data and operates a combination of cloud and on-premises systems.
+
+The portfolio was developed over April and May 2026. A simulated certification pathway runs from June 2026 to March 2027, with external certification targeted for Q1 2027.
+
+**Standard coverage:** ISO/IEC 27001:2022 Clauses 4–10 and all 93 Annex A controls assessed.
 
 ---
 
 ## Repository Structure
 
-```
-AIR-ISMS-Portfolio/
-│
-├── README.md
-├── 00-Summary/
-├── 01-Context-and-Scope/
-├── 02-Asset-Management/
-├── 03-Risk-Management/
-├── 04-Policies/
-├── 05-Operations/
-├── 06-Compliance/
-└── 07-Improvement/
-```
+    ISMS-Portfolio-AIR/
+    │
+    ├── README.md
+    ├── 00-Summary/
+    ├── 01-Context-and-Scope/
+    ├── 02-Asset-Management/
+    ├── 03-Risk-Management/
+    ├── 04-Policies/
+    ├── 05-Operations/
+    ├── 06-Compliance/
+    └── 07-Improvement/
 
 ---
 
@@ -38,77 +40,68 @@ AIR-ISMS-Portfolio/
 
 | # | Document ID | Title | Format | ISO 27001:2022 Clause |
 |---|---|---|---|---|
-| — | — | [Executive Summary](00-Summary/) | Word | — |
-| 1 | AIR-ISMS-ORG-001 | [Organisation Profile](01-Context-and-Scope/) | Word | Clause 4.1, 4.2 |
-| 2 | AIR-ISMS-SCO-001 | [ISMS Scope Statement](01-Context-and-Scope/) | Word | Clause 4.3 |
-| 3 | AIR-ISMS-AST-001 | [Information Asset Inventory](02-Asset-Management/) | Excel | Clause 8.1, Annex A 5.9 |
-| 4 | AIR-ISMS-RSK-001 | [Risk Assessment Methodology](03-Risk-Management/) | Word | Clause 6.1.2 |
-| 5 | AIR-ISMS-RSK-002 | [Risk Register](03-Risk-Management/) | Excel | Clause 6.1.2, 6.1.3 |
-| 6 | AIR-ISMS-POL-001 | [Information Security Policy](04-Policies/) | Word | Clause 5.2, Annex A 5.1 |
-| 7 | AIR-ISMS-POL-002 | [Access Control Policy](04-Policies/) | Word | Annex A 5.15–5.18, 8.2–8.5 |
-| 8 | AIR-ISMS-POL-003 | [Incident Response Policy](04-Policies/) | Word | Annex A 5.24–5.28 |
-| 9 | AIR-ISMS-EXR-001 | [IR Tabletop Exercise — Operation Stale Key](05-Operations/) | Word | Annex A 5.24–5.28 |
-| 10 | AIR-ISMS-SOA-001 | [Statement of Applicability](06-Compliance/) | Excel | Clause 6.1.3 |
-| 11 | AIR-ISMS-AUD-001 | [Internal Audit Report + Findings Log](06-Compliance/) | Word + Excel | Clause 9.2 |
-| 12 | AIR-ISMS-RMP-001 | [Security Improvement Roadmap](07-Improvement/) | Excel | Clause 10.1, 10.2 |
+| — | — | [Executive Summary](00-Summary/AIR-ISMS_Portfolio-Executive-Summary.pdf) | PDF | — |
+| 1 | AIR-ISMS-ORG-001 | [Organisation Profile](01-Context-and-Scope/AIR-ISMS-ORG-001_Organisation-Profile_v1.0.pdf) | PDF | Clauses 4.1, 4.2 |
+| 2 | AIR-ISMS-SCO-001 | [ISMS Scope Statement](01-Context-and-Scope/AIR-ISMS-SCO-001_ISMS-Scope-Statement_v1.0.pdf) | PDF | Clause 4.3 |
+| 3 | AIR-ISMS-AST-001 | [Information Asset Inventory](02-Asset-Management/AIR-ISMS-AST-001_Asset-Inventory_v1.0.xlsx) | Excel | Clause 8.1, Annex A 5.9 |
+| 4 | AIR-ISMS-RSK-001 | [Risk Assessment Methodology](03-Risk-Management/AIR-ISMS-RSK-001_Risk-Assessment-Methodology_v1.0.pdf) | PDF | Clause 6.1.2 |
+| 5 | AIR-ISMS-RSK-002 | [Risk Register](03-Risk-Management/AIR-ISMS-RSK-002_Risk-Register_v1.0.xlsx) | Excel | Clauses 6.1.2, 6.1.3 |
+| 6 | AIR-ISMS-POL-001 | [Information Security Policy](04-Policies/AIR-ISMS-POL-001_Information-Security-Policy_v1.0.pdf) | PDF | Clause 5.2, Annex A 5.1 |
+| 7 | AIR-ISMS-POL-002 | [Access Control Policy](04-Policies/AIR-ISMS-POL-002_Access-Control-Policy_v1.0.pdf) | PDF | Annex A 5.15–5.18, 8.2–8.5 |
+| 8 | AIR-ISMS-POL-003 | [Incident Response Policy](04-Policies/AIR-ISMS-POL-003_Incident-Response-Policy_v1.0.pdf) | PDF | Annex A 5.24–5.28 |
+| 9 | AIR-ISMS-EXR-001 | [IR Tabletop Exercise — Operation Stale Key](05-Operations/AIR-ISMS-EXR-001_IR-Scenario-Tabletop_v1.0.pdf) | PDF | Annex A 5.24–5.28 |
+| 10 | AIR-ISMS-SOA-001 | [Statement of Applicability](06-Compliance/AIR-ISMS-SOA-001_Statement-of-Applicability_v1.0.xlsx) | Excel | Clause 6.1.3 |
+| 11 | AIR-ISMS-AUD-001 | [Internal Audit Report](06-Compliance/AIR-ISMS-AUD-001_Internal-Audit-Report_v1.0.pdf) | PDF | Clause 9.2 |
+|  | AIR-ISMS-AUD-001 | [Findings Log](06-Compliance/AIR-ISMS-AUD-001_Findings-Log_v1.0.xlsx) | Excel | Clause 9.2 |
+| 12 | AIR-ISMS-RMP-001 | [Security Improvement Roadmap](07-Improvement/AIR-ISMS-RMP-001_Security-Improvement-Roadmap_v1.0.xlsx) | Excel | Clauses 10.1, 10.2 |
 
 ---
 
 ## What Each Section Covers
 
 ### 01 — Context and Scope
-The foundation of the ISMS. The **Organisation Profile** documents AIR's internal and external context — governance structure, strategic objectives, regulatory obligations (GDPR, NIS2, EU AI Act), and the threat landscape specific to a critical infrastructure research organisation. The **Scope Statement** formally defines the ISMS boundary across all three locations, 145 personnel, and 12 systems, with justified exclusions and documented interface controls.
+
+The Organisation Profile defines AIR's internal and external context, including its governance structure, objectives, regulatory obligations and threat landscape.
+
+The Scope Statement defines the ISMS boundary across three locations, 145 personnel and 12 systems, including documented exclusions and interface controls.
 
 ### 02 — Asset Management
-The **Asset Inventory** catalogues 11 primary information assets (from government-classified research data to AI model weights) and 12 supporting technical assets. Each asset carries an owner, a classification level (Restricted through Public), a CIA impact rating, and links to the risks that apply to it.
+
+The Asset Inventory covers 11 primary information assets and 12 supporting technical assets. Assets are assigned owners, classification levels, CIA impact ratings and related risks.
 
 ### 03 — Risk Management
-The **Risk Assessment Methodology** defines a 5×5 likelihood-impact matrix, risk appetite thresholds, and the four treatment options available to asset owners. The **Risk Register** applies this methodology to 13 identified risks across identity and access, data protection, AI infrastructure, and legal compliance domains. All 13 risks were rated High at inherent level; post-treatment residual ratings range from Medium to Low.
+
+The Risk Assessment Methodology defines a 5×5 likelihood and impact matrix, risk appetite and available treatment options.
+
+The Risk Register contains 13 identified risks covering areas including identity and access management, data protection, AI infrastructure and legal compliance. Ten risks were rated High.
 
 ### 04 — Policies
-Three topic-specific policies sit beneath the top-level Information Security Policy:
-- **Information Security Policy** — management mandate, five measurable security objectives, information classification scheme, and the policy hierarchy
-- **Access Control Policy** — full access lifecycle with defined timeframes, MFA requirements, Privileged Identity Management, and a contractor access framework
-- **Incident Response Policy** — P1–P4 severity classification, six-phase response lifecycle, GDPR 72-hour notification obligations, and evidence handling procedures
+
+Three policies form the main policy set in the portfolio:
+
+- **Information Security Policy** — management commitment, security objectives, information classification and policy hierarchy.
+- **Access Control Policy** — account lifecycle, MFA, privileged access and contractor access.
+- **Incident Response Policy** — incident severity, response procedures, notification requirements and evidence handling.
 
 ### 05 — Operations
-A fully scripted **tabletop exercise** (Operation Stale Key) simulating the exploitation of a stale contractor account to access 4.1 GB of Restricted research data. Six timed injects test the team's detection, classification, containment, legal notification, and media handling capability, with facilitator notes, expected responses, and a structured debrief framework.
+
+The tabletop exercise, **Operation Stale Key**, simulates the exploitation of a stale contractor account and access to Restricted research data. The exercise tests detection, classification, containment, legal notification and evidence handling.
 
 ### 06 — Compliance
-The **Statement of Applicability** assesses all 93 ISO/IEC 27001:2022 Annex A controls — none are excluded. 9 are fully implemented, 63 are partially implemented, and 21 are not yet implemented, each with an evidence reference and recommended action. The **Internal Audit Report** documents a simulated first audit: 2 major non-conformities, 5 minor non-conformities, 5 observations, and 8 conformities, with a full findings log tracking corrective actions and target dates.
+
+The Statement of Applicability assesses all 93 ISO/IEC 27001:2022 Annex A controls.
+
+- 9 controls are fully implemented.
+- 63 are partially implemented.
+- 21 are not yet implemented.
+
+The simulated internal audit identified 2 major non-conformities, 5 minor non-conformities, 5 observations and 8 conformities.
 
 ### 07 — Improvement
-A **10-month Security Improvement Roadmap** across 9 workstreams, covering 48 prioritised initiatives from immediate NCR remediation through to pre-certification readiness. Includes a 15-gate pre-certification checklist mapping every condition AIR must satisfy before submitting for Stage 1 external audit.
+
+The Security Improvement Roadmap contains 48 initiatives across 9 workstreams, covering remediation of audit findings and risk treatment actions.
 
 ---
-
-## Simulated Certification Pathway
-
-| Phase | Period | Focus |
-|---|---|---|
-| **Treatment** | Jun – Sep 2025 | Close 2 major NCRs and 5 minor NCRs. Complete ROPA, DPIAs, supplier assessments, MFA migration, automated offboarding, staff training. |
-| **Pre-Certification** | Oct – Nov 2025 | Follow-up internal audit. Verify NCR closure. Complete all policies. Conduct management review. External penetration test. |
-| **Stage 1 Audit** | Dec 2025 | External certification body documentation review. Identify Stage 2 readiness gaps. |
-| **Stage 2 Audit** | Feb – Mar 2026 | On-site audit. ISO/IEC 27001:2022 certificate issued. |
-
----
-
-## Key Numbers
-
-| Metric | Value |
-|---|---|
-| Documents produced | 12 |
-| ISO 27001:2022 clauses addressed | 4–10 (all mandatory) |
-| Annex A controls assessed | 93 of 93 |
-| Annex A controls implemented | 9 (10%) |
-| Annex A controls partially implemented | 63 (68%) |
-| Annex A controls not yet implemented | 21 (22%) |
-| Information assets inventoried | 23 (11 primary, 12 supporting) |
-| Risks identified and rated | 13 |
-| Audit findings | 12 (2 major NCR, 5 minor NCR, 5 observations, 8 conformities) |
-| Roadmap initiatives | 48 across 9 workstreams |
-| Personnel in scope | 145 (120 employees, 25 contractors) |
-| Locations in scope | 3 (Madrid, Brussels, Berlin) |
 
 ---
 
@@ -120,7 +113,7 @@ A **10-month Security Improvement Roadmap** across 9 workstreams, covering 48 pr
 
 ## Notes
 
-- All document IDs follow the convention `AIR-ISMS-[CATEGORY]-[NUMBER]`
-- All documents are at version 1.0, dated May 2025
-- Document classification levels used: Restricted, Confidential, Internal, Public
-- The organisation and all associated data are entirely fictional and created for portfolio demonstration purposes only
+- All document IDs follow the convention `AIR-ISMS-[CATEGORY]-[NUMBER]`.
+- Documents are version 1.0.
+- Document classification levels used are Restricted, Confidential, Internal and Public.
+- AIR and all associated data, systems and findings are fictional and were created for portfolio purposes.
